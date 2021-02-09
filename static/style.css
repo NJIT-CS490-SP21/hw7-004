@@ -1,5 +1,4 @@
 body {
-<<<<<<< HEAD
     font-family: "Lucida Console";
     background-color: beige;
     color: red;
@@ -7,7 +6,6 @@ body {
 h1 { 
     color: white;
     background-color: black;
-=======
     font-family: Helvetica;
     color: red;
     background: #0F2027;
@@ -35,5 +33,29 @@ img{
 .meme {
     width: 50%;
     height: auto;
->>>>>>> 3b0603b6825ac2771734624e5e4a1629511e1020
+}
+.smile
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 55%;
+    animation: move 2s infinite;
+}
+
+@-webkit-keyframes "move"
+{
+    0%
+    {
+        transform: rotate(60deg);
+    }
+
+    33%
+    {
+        transform: rotate(-60deg);
+    }
+    
+    67%
+    {
+        transform: rotate(60deg);
+    }
 }
