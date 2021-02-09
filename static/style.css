@@ -11,3 +11,8 @@ img{
     width: 1000px;
     height: 600px;
 }
+
+.mario {
+    width: 10%;
+    height: auto;
+}
