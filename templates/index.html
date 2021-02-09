@@ -9,5 +9,8 @@
             <input type="text" name="student">
             <button type="submit" name="student_btn">Submit</button>
         </form>
+        {% for student in student_lst %}
+            <p>{{student}}</p>
+        {% endfor %}
     </body>
 </html>
