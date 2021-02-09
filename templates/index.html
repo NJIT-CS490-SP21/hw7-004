@@ -5,6 +5,30 @@
     </head>
     <body>
         <h1>CS490 HW7</h1>
-        <h2>My name is Raj</h2>
+        <form method="post" action="/">
+            <input type="text" name="student">
+            <button type="submit" name="student_btn">Submit</button>
+        </form>
+        {% for student in student_lst %}
+            <p>{{student}}</p>
+        {% endfor %}
+        <p>In our class, so far we have completed Milestone 1!</p>
+        <h1>The superbowl was boring this year!</h1>
+        <p>Section: 004</p>
+        <img src= "https://eng-stage.stanford.edu/sites/default/files/styles/full_width_banner_tall/public/chalkboard_web.jpg?itok=1NcgB0xq"/>
+        <p><b>Random number between 0 and 1000:</b> {{ random_number }}</p>
+        <a href="https://www.w3schools.com/html/html_basic.asp">click here to learn some HTML</a>
+        
+        <h2><img class="mario" src= "https://i.redd.it/dkrvx5rcp7g61.gif"/><u>Memes and Things Below</u><img class="mario" src= "https://i.redd.it/dkrvx5rcp7g61.gif"/></h2>
+        <p><img class="meme" src = "https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif"/></p>
+        <p><img class = "meme" src = "https://media.giphy.com/media/fyJxMb1JM4fAc/giphy.gif"/></p>
+        <h2>Image links to our class github:<br></h2>
+        <a href="https://github.com/NJIT-CS490-SP21">
+            <img alt="GithubLink" src="https://image.shutterstock.com/image-photo/hacker-holding-gun-while-working-260nw-625759319.jpg">
+        </a>
+        <h3>Click the links to hand in assigments</h3>
+        <a href="https://njit.instructure.com/courses/16249/quizzes/39501">HW7 due Feb 11</a><br> 
+        <a href="https://njit.instructure.com/courses/16249/quizzes/38984">Project 1 Milestone 2 due Feb 15</a>
+        <h2>Hello class, My name is JEFF</h2>
     </body>
 </html>

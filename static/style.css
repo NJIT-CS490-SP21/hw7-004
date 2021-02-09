@@ -1,3 +1,36 @@
 body {
+    font-family: "Lucida Console";
+    background-color: beige;
+    color: red;
+}
+h1 { 
+    color: white;
+    background-color: black;
     font-family: Helvetica;
+    color: red;
+    background: #0F2027;
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+}
+
+img{
+    border-radius: 8px;
+    width: 1000px;
+    height: 600px;
+}
+
+img{
+    border-radius: 8px;
+    width: 1000px;
+    height: 600px;
+}
+
+.mario {
+    width: 10%;
+    height: auto;
+}
+
+.meme {
+    width: 50%;
+    height: auto;
 }
