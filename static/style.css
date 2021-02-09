@@ -3,9 +3,7 @@ body {
     background-color: beige;
     color: red;
 }
-
-img{
-    border-radius: 8px;
-    width: 1000px;
-    height: 600px;
+h1 { 
+    color: white;
+    background-color: black;
 }
