@@ -1,3 +1,30 @@
 body {
     font-family: Helvetica;
 }
+
+.smile
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 55%;
+    animation: move 2s infinite;
+}
+
+@-webkit-keyframes "move"
+{
+    0%
+    {
+        transform: rotate(60deg);
+    }
+
+    33%
+    {
+        transform: rotate(-60deg);
+    }
+    
+    67%
+    {
+        transform: rotate(60deg);
+    }
+    
+}
