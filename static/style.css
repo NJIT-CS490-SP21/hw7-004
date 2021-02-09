@@ -1,5 +1,7 @@
 body {
-    font-family: Helvetica;
+    font-family: "Lucida Console";
+    background-color: beige;
+    color: red;
 }
 
 img{
