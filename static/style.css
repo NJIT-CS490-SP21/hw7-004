@@ -1,17 +1,15 @@
 body {
-<<<<<<< HEAD
-    background: #59C173;
-    background: -webkit-linear-gradient(to right, #5D26C1, #a17fe0, #59C173);
-    background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173);
-
-
-=======
     font-family: Helvetica;
     color: red;
     background: #0F2027;
     background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
     background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
->>>>>>> 7825f1e64a6ebcdeba7efc882c207a40a7204e47
+}
+
+img{
+    border-radius: 8px;
+    width: 1000px;
+    height: 600px;
 }
 
 img{

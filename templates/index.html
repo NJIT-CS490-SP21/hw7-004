@@ -5,7 +5,13 @@
     </head>
     <body>
         <h1>CS490 HW7</h1>
-        
+        <form method="post" action="/">
+            <input type="text" name="student">
+            <button type="submit" name="student_btn">Submit</button>
+        </form>
+        {% for student in student_lst %}
+            <p>{{student}}</p>
+        {% endfor %}
         <p>In our class, so far we have completed Milestone 1!</p>
         
         <p>Section: 004</p>
