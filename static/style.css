@@ -1,3 +1,13 @@
 body {
     font-family: Helvetica;
+    background: #0F2027;
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+
+}
+
+img{
+    border-radius: 8px;
+    width: 1000px;
+    height: 600px;
 }
