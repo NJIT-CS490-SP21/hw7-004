@@ -1,4 +1,4 @@
-# Homework 7-004
+# CS490 - Homework 7-004
 
 This application is a collection of fun memes and beautiful HTML & CSS.
 Users can input their name into the text box to add their name to the screen.
