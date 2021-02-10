@@ -2,7 +2,7 @@
 
 This application is a collection of fun memes and beautiful HTML & CSS.
 Users can input their name into the text box to add their name to the screen.
-This app can also be deployed using heroku.
+This app can also be deployed using heroku, an online cloud service. (Guys make sure to set your names on Cloud9)
 ___
 ## Requirements
 
