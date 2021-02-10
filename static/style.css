@@ -51,6 +51,18 @@ img{
     animation: move 2s infinite;
 }
 
+div.appa
+{
+    background: black;
+    color: white;
+    width: 340px;
+    height: 250px;
+}
+.appa_img
+{
+    width: 320px;
+    height: 200px;
+}
 @-webkit-keyframes "move"
 {
     0%
