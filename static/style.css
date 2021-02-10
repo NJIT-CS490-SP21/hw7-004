@@ -1,3 +1,12 @@
 body {
     font-family: Helvetica;
+      font-family:Arial;
+    background-image: url('https://images.hdqwalls.com/download/blur-blue-gradient-cool-background-sp-1280x720.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 96px;
+    background-attachment:fixed;
+    background-color:#9ccc65;
+    text-align:left;
+
 }
