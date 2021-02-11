@@ -63,6 +63,16 @@ div.appa
     width: 320px;
     height: 200px;
 }
+.grad{
+    width: 320px;
+    height: 200px;
+
+}
+
+.almost{
+    font-family: Helvetica ;
+    color : #000000;
+}
 @-webkit-keyframes "move"
 {
     0%
