@@ -90,3 +90,17 @@ div.appa
         transform: rotate(60deg);
     }
 }
+
+
+.btn{
+    font-family: "Lucida Console";
+    background-color: coral;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}
