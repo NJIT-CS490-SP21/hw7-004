@@ -27,12 +27,6 @@ img{
     height: 600px;
 }
 
-img{
-    border-radius: 8px;
-    width: 1000px;
-    height: 600px;
-}
-
 .mario {
     width: 10%;
     height: auto;
@@ -67,6 +61,11 @@ div.appa
     width: 320px;
     height: 200px;
 
+}
+
+.initMeme {
+    width: 50%;
+    height: auto;
 }
 
 .almost{
@@ -117,10 +116,11 @@ mark {
  
 }
 
+/* This thing is on top of everything, making all links unusable */
 .animated {
   position: absolute;
   background-color: black;
-  width:110%;
+  width:100%;
   height:8000px;
   -webkit-animation-duration: 45s;
   animation-duration: 45s;
