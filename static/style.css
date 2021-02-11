@@ -109,3 +109,9 @@ img:hover {
     border-radius: 5px;
 
 }
+
+
+mark {
+  background-color: yellow;
+  color: black;
+}
