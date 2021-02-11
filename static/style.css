@@ -109,3 +109,50 @@ img:hover {
     border-radius: 5px;
 
 }
+
+
+mark {
+  background-color: yellow;
+  color: black;
+ 
+}
+
+.animated {
+  position: absolute;
+  background-color: black;
+  width:110%;
+  height:8000px;
+  -webkit-animation-duration: 45s;
+  animation-duration: 45s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1;
+    display:block;
+  }
+
+  100% {
+    opacity: 0;
+    display:none;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    display:block;
+  }
+
+  100% {
+    opacity: 0;
+    display:none;
+  }
+}
+
+.fadeOut {
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+}
