@@ -1,6 +1,7 @@
 import os
 
 from flask import Flask, render_template, request
+import requests
 import random
 
 
@@ -18,7 +19,15 @@ def index():
         student = request.form['student']
         student_lst.append(student)
         reverseName = student[::-1].lower()
-    return render_template("index.html", student_lst=student_lst, random_number = random.randint(0,1000),reverseName = reverseName)
+
+    try:
+        ifconfig = requests.get('http://ifconfig.co/json').json()
+    except Exception as e:
+        print(e)
+        ifconfig = False
+        # do nothing with it though
+
+    return render_template("index.html", student_lst=student_lst, random_number=random.randint(0, 1000), reverseName=reverseName, ifconfig=ifconfig)
 
 
 app.run(
