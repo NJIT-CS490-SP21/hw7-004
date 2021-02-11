@@ -1,7 +1,111 @@
 body {
-    font-family: Helvetica;
+    font-family: "Lucida Console";
+    background-color: beige;
+    color: red;
 }
+h1 { 
+    color: white;
+    background-color: black;
+    font-family: Helvetica;
+   
+    background-image: url('https://images.hdqwalls.com/download/blur-blue-gradient-cool-background-sp-1280x720.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 96px;
+    background-attachment:fixed;
+    text-align:left;
+
+    color: red;
+    background: #0F2027;
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+}
+
+img{
+    border-radius: 8px;
+    width: 1000px;
+    height: 600px;
+}
+
+img{
+    border-radius: 8px;
+    width: 1000px;
+    height: 600px;
+}
+
+.mario {
+    width: 10%;
+    height: auto;
+}
+
+.meme {
+    width: 50%;
+    height: auto;
+
+}
+.smile
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 55%;
+    animation: move 2s infinite;
+}
+
+div.appa
+{
+    background: black;
+    color: white;
+    width: 340px;
+    height: 250px;
+}
+.appa_img
+{
+    width: 320px;
+    height: 200px;
+}
+.grad{
+    width: 320px;
+    height: 200px;
+
+}
+
+.almost{
+    font-family: Helvetica ;
+    color : #000000;
+}
+@-webkit-keyframes "move"
+{
+    0%
+    {
+        transform: rotate(60deg);
+    }
+
+    33%
+    {
+        transform: rotate(-60deg);
+    }
+    
+    67%
+    {
+        transform: rotate(60deg);
+    }
+}
+
 
 img:hover {
     border: 3px solid #186b28;
+}
+
+.btn{
+    font-family: "Lucida Console";
+    background-color: coral;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+
 }
