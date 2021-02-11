@@ -27,7 +27,13 @@ def index():
         ifconfig = False
         # do nothing with it though
 
-    return render_template("index.html", student_lst=student_lst, random_number=random.randint(0, 1000), reverseName=reverseName, ifconfig=ifconfig)
+    return render_template(
+        "index.html", 
+        student_lst=student_lst, 
+        random_number=random.randint(0, 1000), 
+        reverseName=reverseName, 
+        ifconfig=ifconfig
+    )
 
 
 app.run(
